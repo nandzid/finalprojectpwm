@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Tentang {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.container-about {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.about {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.style {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.style img,
+.bungkus {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.style img {
+  width: 30%;
+  height: 70vh;
+}
+.bungkus {
+  font-size: 18px;
+}
+.style .bungkus {
+  text-align: justify;
+}
+.dibuat {
+  margin-top: 30px;
+}
+.satu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ukuran {
+  width: 150px;
+  height: 230px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.ukuran img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+  margin-left: 0;
+  margin-right: 10px;
+}

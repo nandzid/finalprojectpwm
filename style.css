@@ -1,0 +1,55 @@
+#RekomendasiMingguan {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+#Desktop {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+
+#Dukungan {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+#Kontak {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+.container-contact {
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+}
+.contact a {
+  background-color: #d9d9d9;
+  text-decoration: none;
+  font-size: 32px;
+  padding-right: 100px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-radius: 25px;
+  color: black;
+  margin-top: 100px;
+}
+.contact .twitter {
+  padding-right: 140px;
+}
+.contact img {
+  margin-bottom: 10px;
+  width: 120px;
+  height: 35px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+.maps {
+  position: relative;
+  left: 200px;
+}
+
+.maps iframe {
+  border-style: solid;
+  border-radius: 20px;
+}

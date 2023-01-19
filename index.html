@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- CSS Kita -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+
+    <title>GG Store</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="icon.png" alt="Logo GG Store" width="45" height="45" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Desktop">Desktop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Handphone">Handphone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Laptop">Laptop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Perusahaan </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#Tentang">Tentang</a></li>
+                <li><a class="dropdown-item" href="#Dukungan">Dukungan</a></li>
+                <li><a class="dropdown-item" href="#Kontak">Kontak</a></li>
+              </ul>
+            </li>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 800px">
+          <img src="martin-katler-7wCxlBfGMdk-unsplash.jpg" class="d-block w-100" alt="Setup" />
+          <div class="carousel-caption">
+            <h2>GG Store</h2>
+            <p>Good Gear & Good Game</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 800px">
+          <img src="amr-taha-aGQigjc_5TA-unsplash.jpg" class="d-block w-100" alt="Gaming" />
+          <div class="carousel-caption">
+            <h4>Setup Mantep makin Semangat Main!</h4>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 800px">
+          <img src="amr-taha-zhoe52hAx4c-unsplash.jpg" class="d-block w-100" alt="Kerja" />
+          <div class="carousel-caption">
+            <h4>Setup Kece makin Betah Livestreaming!</h4>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <!-- Rekomendasi Mingguan -->
+    <section id="RekomendasiMingguan">
+      <div class="container">
+        <div class="row text-center" style="margin-bottom: 5rem;">
+          <div class="col">
+            <h1>Rekomendasi Mingguan</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="rm1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title">Sipaling Gesit</h3>
+                <h5>Mouse VX8</h5>
+                <p class="card-text">Rp 119.999</p>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="rm2.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title">Sipaling Nyaman</h3>
+                <h5>Keyboard M64</h5>
+                <p class="card-text">Rp 299.999</p>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="rm3.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title">Sipaling Gahar</h3>
+                <h5>ROG Strix G15</h5>
+                <p class="card-text">Rp 15.999.999</p>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="rm4.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-title">Sipaling Dingin</h3>
+                <h5>ROG Phone 6</h5>
+                <p class="card-text">Rp 9.999.999</p>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Akhir Rekomendasi Mingguan -->
+
+    <!-- Katalog Desktop -->
+    <section id="Desktop">
+      <div class="container">
+        <div class="row text-center" style="margin-bottom: 3rem;">
+          <div class="col">
+            <h1>Desktop</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="rm1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5>Desktop</h5>
+                <h3 class="card-title">Mouse VX8</h3>
+                <p class="text-decoration-line-through">Rp 200.000</p>
+                <h5>Rp 119.999</h5>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="rm2.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5>Desktop</h5>
+                <h3 class="card-title">Keyboard M64</h3>
+                <p class="text-decoration-line-through">Rp 350.000</p>
+                <h5>Rp 299.999</h5>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="kd1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5>Desktop</h5>
+                <h3 class="card-title">Mousepad RGB Flex</h3>               
+                <p class="text-decoration-line-through">Rp 500.000</p>
+                <h5>Rp 349.999</h5>
+                <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" style="width: 18rem">
+              <img src="kd2.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5>Desktop</h5>
+                <h3 class="card-title">Headset Black Razz</h3>
+                <p class="card-text">Rp 750.000</p>
+                <h5>Rp 699.999</h5>
+                <a href="https://api.whatsapp.com/send/?phone=6282259317447&text&type=phone_number&app_absent=0" class="btn btn-success">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Akhir Katalog Desktop -->
+            <!-- Katalog Handphone -->
+            <section id="Handphone">
+              <div class="container">
+                <div class="row text-center" style="margin-bottom: 3rem;">
+                  <div class="col">
+                    <h1>Handphone</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/f1.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Asus</h5>
+                        <h3 class="card-title">Rog Phone 6</h3>
+                        <p class="text-decoration-line-through">Rp 7.800.000</p>
+                        <h5>Rp 7.550.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/f2.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Lenovo</h5>
+                        <h3 class="card-title">Lenovo Legion 2</h3>
+                        <p class="text-decoration-line-through">Rp 13.590.000</p>
+                        <h5>Rp 13.190.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/f3.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Asus</h5>
+                        <h3 class="card-title">Rog Phone 5</h3>
+                        <p class="text-decoration-line-through">Rp 6.600.000</p>
+                        <h5>Rp 6.250.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/f4.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Xiaomi</h5>
+                        <h3 class="card-title">Black Shark 5</h3>
+                        <p class="text-decoration-line-through">Rp 9.250.000</p>
+                        <h5>Rp 9.050.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/ip11.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Handphone</h5>
+                        <h3 class="card-title">iPhone 11</h3>
+                        <p class="text-decoration-line-through">Rp 11.900.000</p>
+                        <h5>Rp 11.100.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/ip12.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Apple</h5>
+                        <h3 class="card-title">iPhone 12</h3>
+                        <p class="text-decoration-line-through">Rp 12.900.000</p>
+                        <h5>Rp 12.000.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/ip13.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Apple</h5>
+                        <h3 class="card-title">iPhone 13</h3>               
+                        <p class="text-decoration-line-through">Rp 13.400.000</p>
+                        <h5>Rp 12.900.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/ip14.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Apple</h5>
+                        <h3 class="card-title">iPhone 14 Pro Max</h3>
+                        <p class="text-decoration-line-through">Rp 16.700.000</p>
+                        <h5>Rp 16.250.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/a10.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Samsung</h5>
+                        <h3 class="card-title">Samsung A10</h3>
+                        <p class="text-decoration-line-through">Rp 1.500.000</p>
+                        <h5>Rp 1.120.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/a30.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Samsung</h5>
+                        <h3 class="card-title">Samsung A20</h3>
+                        <p class="text-decoration-line-through">Rp 2.200.000</p>
+                        <h5>Rp 1.950.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/a30.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Samsung</h5>
+                        <h3 class="card-title">Samsung A30</h3>
+                        <p class="text-decoration-line-through">Rp 2.500.000</p>
+                        <h5>Rp 2.350.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/a40.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Samsung</h5>
+                        <h3 class="card-title">Samsung A40</h3>
+                        <p class="text-decoration-line-through">Rp 2.800.000</p>
+                        <h5>Rp 2.560.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/a50.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Samsung</h5>
+                        <h3 class="card-title">Samsung A50</h3>
+                        <p class="text-decoration-line-through">Rp 3.250.000</p>
+                        <h5>Rp 3.050.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/g1.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Xiaomi</h5>
+                        <h3 class="card-title">POCO M3</h3>
+                        <p class="text-decoration-line-through">Rp 2.900.000</p>
+                        <h5>Rp 2.690.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/g2.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Xiaomi</h5>
+                        <h3 class="card-title">POCO X2 PRO</h3>
+                        <p class="text-decoration-line-through">Rp 3.300.000</p>
+                        <h5>Rp 3.050.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card" style="width: 18rem">
+                      <img src="/assets/img/g3.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5>Xiaomi</h5>
+                        <h3 class="card-title">POCO X2 PRO</h3>
+                        <p class="text-decoration-line-through">Rp 2.999.000</p>
+                        <h5>Rp 2.799.000</h5>
+                        <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+            <!-- Akhir Katalog Handphone -->
+        
+                <!-- Katalog Laptop -->
+                <section id="Laptop">
+                  <div class="container">
+                    <div class="row text-center" style="margin-bottom: 3rem;">
+                      <div class="col">
+                        <h1>Laptop</h1>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/l1.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">Acer Predator Triton 500 PT515-51-713V</h3>
+                            <p class="text-decoration-line-through">Rp 31.900.000</p>
+                            <h5>Rp 31.100.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/l2.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">HP LAPTOP OMEN 16-C0093AX RYZEN 5-5900H</h3>
+                            <p class="text-decoration-line-through">Rp 32.900.000</p>
+                            <h5>Rp 32.000.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/l3.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">MSI GS66 11UE-619ID</h3>               
+                            <p class="text-decoration-line-through">Rp 33.400.000</p>
+                            <h5>Rp 32.900.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/l4.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h3 class="card-title">Lenovo Legion 5 Pro 16ACH6H-82JQ00B</h3>
+                            <p class="text-decoration-line-through">Rp 36.700.000</p>
+                            <h5>Rp 36.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/l5.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">ASUS ROG Zephyrus G15 GA503QM-R936G6G-O</h3>
+                            <p class="text-decoration-line-through">Rp 36.700.000</p>
+                            <h5>Rp 36.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/y1.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">MSI Pulse GL66</h3>
+                            <p class="text-decoration-line-through">Rp 26.700.000</p>
+                            <h5>Rp 16.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/y2.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">HP Omen 16 (B0047TX)</h3>
+                            <p class="text-decoration-line-through">Rp 16.750.000</p>
+                            <h5>Rp 16.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/y3.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">Acer Predator Helios 300</h3>
+                            <p class="text-decoration-line-through">Rp 16.650.000</p>
+                            <h5>Rp 16.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/h1.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">HUAWEI MATEBOOK D15</h3>
+                            <p class="text-decoration-line-through">Rp 8.700.000</p>
+                            <h5>Rp 8.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/h2.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">HUAWEI MATEBOOK D16</h3>
+                            <p class="text-decoration-line-through">Rp 9.000.000</p>
+                            <h5>Rp 8.950.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/h3.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">HUAWEI MATEBOOK X PRO</h3>
+                            <p class="text-decoration-line-through">Rp 16.700.000</p>
+                            <h5>Rp 16.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <div class="card" style="width: 18rem">
+                          <img src="/assets/img/h4.png" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5>Laptop</h5>
+                            <h3 class="card-title">HUAWEI MATEBOOK D13</h3>
+                            <p class="text-decoration-line-through">Rp 7.700.000</p>
+                            <h5>Rp 7.250.000</h5>
+                            <a href="#" class="btn btn-success">Pesan Sekarang!</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </section>
+                <!-- Akhir Katalog Laptop -->
+
+    <!-- Dukungan Kami -->
+    <section id="Dukungan">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h1>Dukungan</h1>
+            <h4 class="lead">GG Store perhatian dengan produknya!</h4>
+            <h5 style="margin-top: 5rem;">Tips - Tips Menjaga & Merawat Produk</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="d1.jpeg" class="card-img-top" alt="Tips 1" />
+              <div class="card-body">
+                <p class="card-text">5 Tips Merawat Laptop Gaming agar Awet</p>
+                <a href="https://shopping.tribunnews.com/2022/01/21/5-tips-merawat-laptop-gaming-agar-awet-dan-tidak-cepat-rusak" target="blank" class="btn btn-danger blank">Baca Disin!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="d2.jpeg" class="card-img-top" alt="Tips 2" />
+              <div class="card-body">
+                <p class="card-text">Tips Merawat Perlengkapan Gaming agar Lebih Tahan Lama</p>
+                <a href="https://esports.skor.id/tips-merawat-perlengkapan-gaming-agar-lebih-tahan-lama-01359109" target="blank" class="btn btn-danger blank">Baca Disin!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="d3.jpeg" class="card-img-top" alt="Tips 3" />
+              <div class="card-body">
+                <p class="card-text">Tips Merawat HP Gaming Agar Tetap Bagus</p>
+                <a href="https://batam.pikiran-rakyat.com/lifestyle/pr-2306096223/tips-merawat-hp-gaming-agar-tetap-bagus-dan-awet-lakukan-ini-secara-rutin" target="blank" class="btn btn-danger blank">Baca Disin!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="d4.jpeg" class="card-img-top" alt="Tips 4" />
+              <div class="card-body">
+                <p class="card-text">3 Tips Dasar Merawat PC Gaming agar Tetap Kencang</p>
+                <a href="https://teknostyle.id/2021/07/28/3-tips-dasar-merawat-pc-gaming/" target="blank" class="btn btn-danger blank">Baca Disin!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h5>Ada saran lain?</h5>
+            <input type="text" class="form-control text-center" placeholder="Tuliskan saran kalian disini..." aria-label="Tuliskan saran kalian disini..." aria-describedby="basic-addon2">
+            <a href="#Beranda" target="blank" class="btn btn-success blank mt-2">Kirim</a>
+          </div> 
+      </div>
+    </section>
+    <!-- Akhir Dukungann Kami -->
+    
+    <!-- Tentang Kami-->
+    <section id="Tentang">
+    <div class="container-about">
+      <div class="about">
+        <h1>About us</h1>
+        <div class="style">
+          <img src="../img/logo.jpeg" alt="" />
+          <div class="bungkus">
+            <p>
+              Perusahanan kami bergerak di industri gaming, dengan seiring berkembangannya komunitas game di dunia kami menyajikan kepuasan berbelanja untuk menunjang hobi lama yang berkembang ini, Dengan berbagai macam produk produk
+              perlengkapan gaming dan aksesoris untuk menunjang pengalaman dalam bermain game. Kami Menyediakan perangkat bermain game seperti smartphone, console, computer, monitor dan berbagai macam kebutuhan gaming lainnya. Juga tersedia
+              spesifikasi dari low end, mid hingga high end dengan berbagai brand.
+            </p>
+            <p class="dibuat">Web ini Dikembangkan oleh:</p>
+            <div class="satu" style="font-size: 85%; text-align: center;">
+              <div class="ukuran">
+                <img src="img/Foto Gede.jpeg" alt="" />
+                <p style="font-weight: bold; margin-left: 6px">Gede Ananda P.</p>
+                <p style="text-align: center">5220411018</p>
+              </div>
+              <div class="ukuran">
+                <img src="img/foto3.jpeg" alt="" />
+                <p style="font-weight: bold; margin-left: 6px">M. Rizki Ananda</p>
+                <p style="text-align: center">5220411019</p>
+              </div>
+              <div class="ukuran">
+                <img src="img/logo.jpeg" alt="" />
+                <p style="font-weight: bold; margin-left: 6px">Adi Nugroho T.A.</p>
+                <p style="text-align: center">5220411020</p>
+              </div>
+              <div class="ukuran">
+                <img src="/assets/img/tama.png" alt="" />
+                <p style="font-weight: bold; margin-left: 6px">Yogawan Aditya P.</p>
+                <p style="text-align: center">5220411056</p>
+              </div>
+              <div class="ukuran">
+                <img src="img/logo.jpeg" alt="" />
+                <p style="font-weight: bold; margin-left: 6px">M. Fazriel Haikal</p>
+                <p style="text-align: center">5220411453</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Akhir Tentang Kami -->
+
+    <!-- Kontak Kami -->
+    <section id="Kontak">
+    <div class="container-contact">
+		<div class="sosmed">
+			<h1>Medsos Kami</h1><br>
+			<div class="contact">
+				<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="fb.png">Facebook</a><br><br><br>
+				<a class="twitter" href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=adinugroho60977@gmail.com" target="_blank"><img src="twitter.png">Twitter</a><br><br><br>
+				<a href="https://www.instagram.com" target="_blank"><img src="ig.png">Instagram</a><br><br><br>
+				<a href="https://api.whatsapp.com/send/?phone=085159997138&text&type=phone_number&app_absent=0" target="_blank"><img src="wa.png">Whatsapp</a><br><br><br>
+			</div>
+		</div>
+		<div class="maps">
+			<div class="OfflineStore">
+				<h1>Offline Store</h1><br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505883.86678241775!2d110.14408132220494!3d-7.872273675441688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5793d0c2cf2b%3A0x276a21f8a01cbe13!2sKampung%20Wisata%20Taman%20Sari!5e0!3m2!1sid!2sid!4v1673608572526!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+	  </div>
+	  </div>
+  </section>
+    <!-- Akhir Kontak Kami-->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
